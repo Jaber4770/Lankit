@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800;900&family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Trispace', sans-serif;
+}
+.nav-page-margin{
+    margin: 0 6%;
+}
+.nav-item {
+    list-style-type: none;
+    margin: 0px;
+}
+.nav-link a{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    letter-spacing: -1px;
+}
+.btn-padding{
+    padding: 10px;
+}
