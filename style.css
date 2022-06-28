@@ -33,10 +33,12 @@ body {
     background-color: rgb(72, 72, 252);
 }
 
+.btn-primary{
+    transition: 0.3s;
+}
 .btn-primary:hover {
     box-shadow: 0px 7px 25px 0px #ccd1f7c7 !important;
     background-color: rgb(56, 56, 228);
-    transition: 0.5s;
 }
 
 .btn-primary:hover {
