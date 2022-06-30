@@ -15,6 +15,10 @@ body {
     margin: 0 6%;
 }
 
+.page-margin {
+    margin: 0 12%;
+}
+
 .page-margin-left {
     margin-left: 12%;
 }
@@ -70,15 +74,45 @@ body {
 .header-p-color {
     color: gray;
 }
+
 .docs-btn {
     padding: 11px;
-    background-color:  rgba(51,94,234,.1);;
+    background-color: rgba(51, 94, 234, .1);
+    ;
     transition: 0.3s;
     color: #335eea;
 }
-.docs-btn:hover{
+
+.docs-btn:hover {
     transform: translateY(-3px);
-    background-color: rgba(51,94,234,.15);
+    background-color: rgba(51, 94, 234, .15);
     color: #335eea;
     box-shadow: 0px 9px 25px 0px #ccd1f7c7 !important;
+}
+
+.header-icon {
+    font-size: 40px;
+    color: #335EEA;
+}
+
+.header-card-p {
+    color: gray;
+}
+
+.header-card-w {
+    width: 36%;
+}
+
+.letter-spaceing{
+    letter-spacing: -2px;
+}
+.top-btm-line{
+    border-top: 1px solid #F1F4F8;
+    border-bottom: 1px solid #F1F4F8;
+    padding: 30px 0px;
+    margin-bottom: 100px;
+}
+.sponsor-section svg{
+    padding: 20px;
+    color: #8992b1;
 }
