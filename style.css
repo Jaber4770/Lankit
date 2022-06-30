@@ -119,36 +119,43 @@ body {
 }
 
 /* form section */
-.card-width{
+.card-width {
     width: 40%;
 }
-.card-info{
+
+.card-info {
     width: 60%;
 }
-.img-border{
+
+.img-border {
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
 }
-.svg-curve{
+
+.svg-curve {
     margin-top: -55px;
 }
-.card-input{
+
+.card-input {
     outline: none;
     border: none;
     border-bottom: 1px solid rgb(209, 209, 209);
     width: 100%;
 }
-.card-form{
+
+.card-form {
     padding: 0 7%;
     background-color: white;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
-.card-section-bg{
+
+.card-section-bg {
     background-color: #F9FBFD;
     padding-top: 100px;
 }
-.form-btn{
+
+.form-btn {
     border: none;
     margin: 50px 0;
     padding: 15px 80px;
@@ -156,6 +163,16 @@ body {
     color: white;
     transition: 0.3s;
 }
-.form-btn:hover{
+
+.form-btn:hover {
     box-shadow: 0 3px 15px 3px rgb(191, 228, 208);
+    transform: translateY(-3px);
+}
+.cart{
+    transition: 0.3s;
+}
+
+.cart:hover {
+    box-shadow: 0 5px 25px 1px rgb(238 238 238);
+    transform: translateY(-3px);
 }
