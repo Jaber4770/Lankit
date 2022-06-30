@@ -111,7 +111,6 @@ body {
     border-top: 1px solid #F1F4F8;
     border-bottom: 1px solid #F1F4F8;
     padding: 30px 0px;
-    margin-bottom: 100px;
 }
 
 .sponsor-section svg {
@@ -126,6 +125,37 @@ body {
 .card-info{
     width: 60%;
 }
+.img-border{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
 .svg-curve{
     margin-top: -55px;
+}
+.card-input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    width: 100%;
+}
+.card-form{
+    padding: 0 7%;
+    background-color: white;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.card-section-bg{
+    background-color: #F9FBFD;
+    padding-top: 100px;
+}
+.form-btn{
+    border: none;
+    margin: 50px 0;
+    padding: 15px 80px;
+    background-color: #42ba96;
+    color: white;
+    transition: 0.3s;
+}
+.form-btn:hover{
+    box-shadow: 0 3px 15px 3px rgb(191, 228, 208);
 }
