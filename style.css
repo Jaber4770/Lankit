@@ -103,16 +103,29 @@ body {
     width: 36%;
 }
 
-.letter-spaceing{
+.letter-spaceing {
     letter-spacing: -2px;
 }
-.top-btm-line{
+
+.top-btm-line {
     border-top: 1px solid #F1F4F8;
     border-bottom: 1px solid #F1F4F8;
     padding: 30px 0px;
     margin-bottom: 100px;
 }
-.sponsor-section svg{
+
+.sponsor-section svg {
     padding: 20px;
     color: #8992b1;
+}
+
+/* form section */
+.card-width{
+    width: 40%;
+}
+.card-info{
+    width: 60%;
+}
+.svg-curve{
+    margin-top: -55px;
 }
