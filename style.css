@@ -15,7 +15,7 @@ body {
     margin: 0 6%;
 }
 
-.page-margin {
+.container{
     margin: 0 12%;
 }
 
@@ -38,6 +38,10 @@ body {
     text-decoration: none;
     color: rgb(102, 102, 102);
     letter-spacing: -1px;
+    transition: 0.3s;
+}
+.nav-link a:hover{
+    color: #2B50C7;
 }
 
 .btn-padding {
@@ -175,4 +179,22 @@ body {
 .cart:hover {
     box-shadow: 0 5px 25px 1px rgb(238 238 238);
     transform: translateY(-3px);
+}
+.form-info-heading{
+    color: #42BA96;
+}
+.card-letter-spaceing{
+    letter-spacing: -3px;
+}
+.cart-form-p{
+    color: rgb(144, 158, 177);
+}
+.form-info-list{
+    padding: 0px;
+}
+.form-info-list li{
+    list-style-type: none;
+}
+.cart-form-list{
+    color: #42BA96;
 }
