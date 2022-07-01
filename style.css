@@ -127,7 +127,7 @@ body {
     width: 40%;
 }
 
-.card-info {
+.card-60 {
     width: 60%;
 }
 
@@ -154,7 +154,7 @@ body {
     border-bottom-right-radius: 7px;
 }
 
-.card-section-bg {
+.section-bg {
     background-color: #F9FBFD;
     padding-top: 100px;
 }
@@ -197,4 +197,13 @@ body {
 }
 .cart-form-list{
     color: #42BA96;
+}
+.card-h2-color{
+    color: #2B50C7;
+}
+.line-height{
+    line-height: 45px;
+}
+.icon-color{
+    color: #5877df;
 }
