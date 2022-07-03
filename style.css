@@ -214,3 +214,10 @@ body {
     transform-style: preserve-3d;
     transform: rotateY(45deg);
 }
+.svg-color{
+    color: rgb(227, 228, 252);
+    margin-left: -20%
+}
+.absolute-image{
+    margin-left: -80%;
+}
