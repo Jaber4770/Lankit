@@ -153,7 +153,9 @@ body {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
-
+.cart-form-info-m{
+    margin-top: 13%;
+}
 .section-bg {
     background-color: #F9FBFD;
     padding-top: 100px;
@@ -206,4 +208,9 @@ body {
 }
 .icon-color{
     color: #5877df;
+}
+.graph-img{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transform: rotateY(45deg);
 }
