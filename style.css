@@ -15,7 +15,7 @@ body {
     margin: 0 6%;
 }
 
-.container{
+.container {
     margin: 0 12%;
 }
 
@@ -40,7 +40,8 @@ body {
     letter-spacing: -1px;
     transition: 0.3s;
 }
-.nav-link a:hover{
+
+.nav-link a:hover {
     color: #2B50C7;
 }
 
@@ -153,9 +154,11 @@ body {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
-.cart-form-info-m{
+
+.cart-form-info-m {
     margin-top: 13%;
 }
+
 .section-bg {
     background-color: #F9FBFD;
     padding-top: 100px;
@@ -174,7 +177,8 @@ body {
     box-shadow: 0 3px 15px 3px rgb(191, 228, 208);
     transform: translateY(-3px);
 }
-.cart{
+
+.cart {
     transition: 0.3s;
 }
 
@@ -182,42 +186,60 @@ body {
     box-shadow: 0 5px 25px 1px rgb(238 238 238);
     transform: translateY(-3px);
 }
-.form-info-heading{
+
+.form-info-heading {
     color: #42BA96;
 }
-.card-letter-spaceing{
+
+.card-letter-spaceing {
     letter-spacing: -3px;
 }
-.cart-form-p{
+
+.cart-form-p {
     color: rgb(144, 158, 177);
 }
-.form-info-list{
+
+.form-info-list {
     padding: 0px;
 }
-.form-info-list li{
+
+.form-info-list li {
     list-style-type: none;
 }
-.cart-form-list{
+
+.cart-form-list {
     color: #42BA96;
 }
-.card-h2-color{
+
+.card-h2-color {
     color: #2B50C7;
 }
-.line-height{
+
+.line-height {
     line-height: 45px;
 }
-.icon-color{
+
+.icon-color {
     color: #5877df;
 }
-.graph-img{
-    perspective: 1000px;
-    transform-style: preserve-3d;
-    transform: rotateY(45deg);
-}
-.svg-color{
+
+.svg-color {
     color: rgb(227, 228, 252);
-    margin-left: -20%
+    margin-left: -12%;
+    margin-top: -5%;
 }
-.absolute-image{
-    margin-left: -80%;
+
+.absolute-image {
+    margin-left: -100%;
+    margin-top: -20px;
+}
+.skew-img-size{
+    width:96%;
+}
+.graph-img {
+    perspective-origin: 0;
+    perspective: 1500px;
+    transform-style: preserve-3d;
+    /* transform: skewx(-7deg) skewY(-3deg); */
+    transform: rotateY(-35deg) rotateX(15deg);
 }
