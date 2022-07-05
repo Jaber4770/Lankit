@@ -261,8 +261,29 @@ body {
 }
 
 .card-insta-svg {
-    width: 100%;
+    width: 60%;
 }
-.white-bg{
+
+.white-bg {
     background-color: #ffffff;
+}
+
+.slide-card-w {
+    width: 75%;
+}
+
+.slide-img {
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.seting-center {
+    left: 12%;
+}
+.svg-div{
+    margin: 9% 5% 0 13%;
+}
+.insta-svg-color{
+    color: #6f8bb3;
 }
