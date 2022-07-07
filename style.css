@@ -309,9 +309,8 @@ body {
     font-size: 14px;
 }
 
-.section-bg-business {
+.section-bg-gray {
     background-color: #F1F4F8;
-    padding-top: 15%;
 }
 
 .span-blue-color {
@@ -320,4 +319,24 @@ body {
 
 .font-s {
     font-size: 27px;
+}
+
+.busins-pad-top {
+    padding-top: 15%;
+}
+
+/* pricing section */
+.div-center {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.fontSize-bsns-pera {
+    font-size: 17px;
+}
+
+.switch {
+    padding: 0 50%;
+    font-size: 21px;
 }
