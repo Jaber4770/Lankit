@@ -393,3 +393,34 @@ body {
 .buy-btn:hover{
     box-shadow: 0 0 15px 1px rgb(221, 221, 221);
 }
+
+/*-------------- 
+       Footer
+ ---------------*/
+
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.list-style{
+    list-style-type: none;
+}
+.list-style li{
+    padding-bottom: 10px;
+}
+.list-style li:hover{
+    text-decoration: underline;
+}
+.icon-size{
+    font-size: 22px;
+    padding: 10px 10px 0 0;
+}
+.lankit-text-hard{
+    color: #536176;
+}
+.list-heading{
+    font-size: 14px;
+}
+.footer-bottom{
+    padding-bottom: 100px;
+}
