@@ -354,6 +354,13 @@ body {
     color: white;
     margin: 0;
 }
+.pading-10{
+    padding-top: 30%;
+}
+
+.top-position{
+    top:17%;
+}
 
 .dis-grid {
     display: grid;
@@ -368,20 +375,94 @@ body {
 .qsn-icon {
     color: #42BA96;
 }
-.white-bg{
-    background-color:white;
+
+.white-bg {
+    background-color: white;
 }
-.get-start{
-    background-color: #203055;
-    display: inline-block;    
+
+.zIndex-1 {
+    z-index: 1;
+    box-shadow: 0px 5px 15px 1px #1B2A4E;
+    border-radius: 5px;
+}
+
+.zIndex-2 {
+    z-index: 0;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+.btn-border-radius{
+    border-radius: 0 0 5px 5px;
+}
+
+.price-fs {
+    font-size: 50px;
+}
+
+.text-style {
+    background-color: #EAEFFD;
+    display: inline-block;
     padding:
-    5px 10px;
+        3px 8px;
+    border-radius: 20px;
+    color: blue;
+    font-size: 14px;
+    margin: 50px 0 20px 0;
+}
+
+.card-list {
+    padding-top: 50px;
+}
+
+.card-list li {
+    list-style-type: none;
+    padding: 7px 0;
+}
+
+.card-list li i {
+    color: #42BA96;
+    font-size: 20px;
+}
+
+.get-btn {
+    background-color: #335EEA;
+    color: white;
+    transition: 0.3s;
+    padding: 15px 0;
+    border: none;
+}
+
+.get-btn:hover {
+    background-color: #2B50C7;
+}
+
+.contact-btn{
+    background-color: #D9E2EF;
+    color: #506690;
+    padding: 15px 0;
+    border: none;
+}
+.contact-box{
+    padding-bottom: 136px;
+}
+.contact-card-height{
+    height: 75vh;
+}
+
+.get-start {
+    background-color: #203055;
+    display: inline-block;
+    padding:
+        5px 10px;
     border-radius: 20px;
     color: #4E6588;
     font-size: 14px;
-
 }
-.buy-btn{
+.zIndex1{
+    z-index: 1;
+}
+
+.buy-btn {
     border: none;
     background-color: #42ba96;
     padding: 15px 15px;
@@ -390,7 +471,8 @@ body {
     margin-top: 10px;
     transition: .3s;
 }
-.buy-btn:hover{
+
+.buy-btn:hover {
     box-shadow: 0 0 15px 1px rgb(221, 221, 221);
 }
 
@@ -398,29 +480,36 @@ body {
        Footer
  ---------------*/
 
-.footer-list{
+.footer-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.list-style{
+
+.list-style {
     list-style-type: none;
 }
-.list-style li{
+
+.list-style li {
     padding-bottom: 10px;
 }
-.list-style li:hover{
+
+.list-style li:hover {
     text-decoration: underline;
 }
-.icon-size{
+
+.icon-size {
     font-size: 22px;
     padding: 10px 10px 0 0;
 }
-.lankit-text-hard{
+
+.lankit-text-hard {
     color: #536176;
 }
-.list-heading{
+
+.list-heading {
     font-size: 14px;
 }
-.footer-bottom{
+
+.footer-bottom {
     padding-bottom: 100px;
 }
