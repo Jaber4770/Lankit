@@ -337,9 +337,30 @@ body {
 }
 
 .switch {
-    padding:0 20px 0 84px;
+    padding: 0 20px 0 84px;
     font-size: 21px;
 }
-.switch-center{
+
+.switch-center {
     padding: 0 32%;
+}
+
+.down-svg{
+    background-color: #1B2A4E;
+}
+.div-bg{
+    background-color: #1B2A4E;
+    color: white;
+    margin: 0;
+}
+.dis-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.lankit-text{
+    color: #869ab8;
+}
+.qsn-icon{
+    color: #42BA96;
 }
