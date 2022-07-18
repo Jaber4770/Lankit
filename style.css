@@ -326,10 +326,10 @@ body {
 }
 
 /* pricing section */
-.div-center {
+.div-center1 {
     margin: 0 auto;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 25%;
 }
 
 .fontSize-bsns-pera {
@@ -355,11 +355,11 @@ body {
     margin: 0;
 }
 .pading-10{
-    padding-top: 30%;
+    padding-top: 25%;
 }
 
 .top-position{
-    top:17%;
+    top:10%;
 }
 
 .dis-grid {
