@@ -324,18 +324,24 @@ body {
 .busins-pad-top {
     padding-top: 15%;
 }
+.padding-bottom{
+    padding-bottom:8%;
+}
 
 /* pricing section */
 .div-center1 {
     margin: 0 auto;
     text-align: center;
-    padding-top: 25%;
+    padding-top: 5%;
 }
 
 .fontSize-bsns-pera {
     font-size: 17px;
 }
 
+.pad-btm-price{
+    padding-bottom: 5%;
+}
 .switch {
     padding: 0 20px 0 84px;
     font-size: 21px;
@@ -359,7 +365,7 @@ body {
 }
 
 .top-position{
-    top:10%;
+    top:13%;
 }
 
 .dis-grid {
